@@ -99,4 +99,6 @@ fi
 #fi
 
 #カスタムプロンプト
-#eval "$(starship init bash)"
+if [ -e /usr/local/bin/starship ]; then
+    eval "$(starship init bash)"
+fi
