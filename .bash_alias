@@ -1,0 +1,2 @@
+alias nprm='npx prisma migrate'
+alias nprmr='npx prisma migrate reset'
