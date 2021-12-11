@@ -102,3 +102,6 @@ fi
 if [ -e /usr/local/bin/starship ]; then
     eval "$(starship init bash)"
 fi
+
+# hotFix webpack v6で修正予定
+export NODE_OPTIONS=--openssl-legacy-provider
